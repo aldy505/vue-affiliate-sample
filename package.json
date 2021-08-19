@@ -1,5 +1,5 @@
 {
-  "name": "affiliate-web-sample",
+  "name": "vue-affiliate-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "lint:server": "npm run lint --workspace=client",
     "lint": "npm-run-all -s lint:server lint:client"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Reinaldy Rafli <aldy505@tutanota.com>",
+  "license": "GPL-3.0",
   "workspaces": [
     "client",
     "server"

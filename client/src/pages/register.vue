@@ -15,7 +15,7 @@
       </div>
     </div>
   </form>
-  <div class="" v-if="success === 'true'" :key="success">
+  <div v-if="success === 'true'" :key="success">
     <h2 class="text-lg font-bold py-4" >Registration success!</h2>
     <p class="text-base py-2">
       <router-link to="/users" class="text-indigo-700 hover:underline">Please continue to this link</router-link>
